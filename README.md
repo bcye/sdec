@@ -1,30 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# static dynamic e-commerce
+---
 
-## Getting Started
+This is a full-featured e-commerce website, which can be used and set up without any code.
 
-First, run the development server:
+It can be deployed without any costs using Vercel, you'll only ever pay the standard payment processing fees to Stripe.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Setup
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Follow the steps outlined below to deploy and set up a store.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Get A Stripe Account
 
-## Learn More
+This setup uses Stripe for payment processing. Visit [stripe.com](https://stripe.com) to create an account.
 
-To learn more about Next.js, take a look at the following resources:
+## Add Products In Stripe
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Go to "Products" in your Stripe dashboard and create add all products you want shown on the website.
