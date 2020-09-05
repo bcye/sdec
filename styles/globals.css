@@ -1,0 +1,145 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a,
+p,
+button {
+  font-size: 1.25rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: monospace !important;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+}
+
+.main {
+  padding: 5rem 0;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.nav {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav > div {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  border-top: 1px solid #eaeaea;
+}
+
+.header {
+  border-bottom: 1px solid #eaeaea;
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.card {
+  margin: 1rem;
+  flex-basis: 45%;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+}
+
+.card h3 {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.card img {
+  width: 100%;
+}
+
+.button-group {
+  display: flex;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.button-group > button {
+  width: 100%;
+  margin: 0 0.25rem;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 0;
+  padding: 0.5rem;
+}
+
+.button-group > button:first-of-type {
+  margin-left: 0;
+}
+.button-group > button:last-of-type {
+  margin-right: 0;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+.product-detail {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.product-detail > * {
+  flex-basis: 45%;
+}
+
+.product-detail img {
+  width: 100%;
+}
+
+input[type="number"] {
+  max-width: 75px;
+}
+
+.text-center {
+  text-align: center;
+}
